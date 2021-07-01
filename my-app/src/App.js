@@ -3,7 +3,6 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
-import {Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl';
 
 class App extends Component {
   render() {
