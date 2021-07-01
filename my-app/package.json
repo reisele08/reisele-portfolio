@@ -1,6 +1,6 @@
 {
-  "homepage": "https://trieucamtoan.github.io/react-portfolio/",
-  "name": "myportfoliosite",
+  "homepage": "https://reisele08.github.io/reisele-portfolio/",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
     "yup": "^0.27.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
