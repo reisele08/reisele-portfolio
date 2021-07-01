@@ -3,17 +3,18 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
+import {Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton} from 'react-mdl';
 
 class App extends Component {
   render() {
     return (
       <div>
           <Layout>
-              <Header className = "header-color" title = "Title">
+              <Header className = "header-color" title = "Richard Eisele">
                   <Navigation>
                       <Link to = "/">Home</Link>
-                      <Link to="/login">Login</Link>
-                      <Link to="/videos">Videos</Link>
+                      <Link to="/projects">Projects</Link>
+                      <Link to="/about">About Me</Link>
                       <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
@@ -26,35 +27,11 @@ class App extends Component {
                   </Navigation>
               </Drawer>
               <Content>
-                  <div className="page-content" />
-                  <Main/>
+                <Main/>
               </Content>     
           </Layout>
       </div>
       
-     /*
-     <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
-            <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-            </Navigation>
-        </Drawer>
-        <Content />
-    </Layout>
-</div>
-*/
     ); 
   }
 }
