@@ -11,7 +11,7 @@ class Projects extends Component {
     
         <Cell col={6}>
           <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
-        <CardTitle style={{color: '#1f1f1f', height: '176px', background: 'url(/img/cradle_screenie.png) center / cover'}}></CardTitle>
+        <CardTitle style={{color: '#1f1f1f', height: '176px', background: 'url(my-app/public/img/cradle_screenie.png) center / cover'}}></CardTitle>
         <CardText>
           <h1>Cradle</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,7 +29,7 @@ class Projects extends Component {
 
       <Cell col={6}>
       <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(/img/weathermap_screenie.png) center / cover'}}>Weather-Map</CardTitle>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(my-app/public/img/weathermap_screenie.png) center / cover'}}>Weather-Map</CardTitle>
         <CardText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Mauris sagittis pellentesque lacus eleifend lacinia...
