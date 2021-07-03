@@ -19,10 +19,10 @@ class App extends Component {
               </Header>
               <Drawer className = "drawer-color" title= "Drawer Title">
                   <Navigation>
-                      <Link to="/resume">Link</Link>
-                      <Link to="/aboutme">Link</Link>
-                      <Link to="/projects">Link</Link>
-                      <Link to="/contact">Link</Link>
+                      <Link to = "/">Home</Link>
+                      <Link to="/projects">Projects</Link>
+                      <Link to="/about">About Me</Link>
+                      <Link to="/contact">Contact</Link>
                   </Navigation>
               </Drawer>
               <Content>
