@@ -17,7 +17,7 @@ class App extends Component {
                       <Link to="/contact">Contact</Link>
                   </Navigation>
               </Header>
-              <Drawer className = "drawer-color" title= "Drawer Title">
+              <Drawer className = "drawer-color" title= "Drawer">
                   <Navigation>
                       <Link to = "/">Home</Link>
                       <Link to="/projects">Projects</Link>
