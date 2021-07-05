@@ -1,13 +1,10 @@
 import React, {Component} from 'react';
 import {Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton, Grid, Cell} from 'react-mdl';
-import {Link} from 'react-router-dom';
 
 class Projects extends Component {
   render(){
     return (
       <div style={{width: '80%', margin: 'auto'}}>
-                  
-  
       <Grid className="projects-row-1">
     
         <Cell col={6} tablet={8} phone={4}>
@@ -20,7 +17,7 @@ class Projects extends Component {
           new 
         </CardText>
         <CardActions border>
-          <Button colored component={Link} to="/cradle-source">Check out the source here</Button>
+          <Button colored href="https://github.com/reisele08/CradlePlatform" target="_blank">Check out the source here</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
@@ -37,7 +34,8 @@ class Projects extends Component {
           Mauris sagittis pellentesque lacus eleifend lacinia...
         </CardText>
         <CardActions border>
-          <Button colored component={Link} to="/weathermap-source">Check out the source here</Button>
+        <Button colored href="https://github.com/reisele08/WeatherMap" target="_blank">Check out the source here</Button>
+          {/*<Button colored component={Link} to="/weathermap-source">Check out the source here</Button>*/}
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
@@ -73,8 +71,8 @@ class Projects extends Component {
           Mauris sagittis pellentesque lacus eleifend lacinia...
         </CardText>
         <CardActions border>
-          <Button colored component={Link} to="/decaf-source">Check out the source here</Button>
-          <Button colored component={Link} to="/decaf-spec">Decaf Spec</Button>
+          <Button href="https://github.com/reisele08/Decaf-Compiler" target="_blank">Check out the source here</Button>
+          <Button href="https://anoopsarkar.github.io/compilers-class/decafspec.html" target="_blank">Decaf Spec</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
