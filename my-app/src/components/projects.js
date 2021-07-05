@@ -71,8 +71,8 @@ class Projects extends Component {
           Mauris sagittis pellentesque lacus eleifend lacinia...
         </CardText>
         <CardActions border>
-          <Button href="https://github.com/reisele08/Decaf-Compiler" target="_blank">Check out the source here</Button>
-          <Button href="https://anoopsarkar.github.io/compilers-class/decafspec.html" target="_blank">Decaf Spec</Button>
+          <Button colored href="https://github.com/reisele08/Decaf-Compiler" target="_blank">Check out the source here</Button>
+          <Button colored href="https://anoopsarkar.github.io/compilers-class/decafspec.html" target="_blank">Decaf Spec</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
