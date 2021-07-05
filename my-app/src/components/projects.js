@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {Card, CardTitle, CardText, CardActions, CardMenu, Button, IconButton, Grid, Cell} from 'react-mdl';
-
+import {Link} from 'react-router-dom';
 
 class Projects extends Component {
   render(){
     return (
       <div style={{width: '80%', margin: 'auto'}}>
-
+                  
+  
       <Grid className="projects-row-1">
     
         <Cell col={6} tablet={8} phone={4}>
@@ -19,7 +20,7 @@ class Projects extends Component {
           new 
         </CardText>
         <CardActions border>
-          <Button colored>Check out the source here</Button>
+          <Button colored component={Link} to="/cradle-source">Check out the source here</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
@@ -36,7 +37,7 @@ class Projects extends Component {
           Mauris sagittis pellentesque lacus eleifend lacinia...
         </CardText>
         <CardActions border>
-          <Button colored>Check out the source here</Button>
+          <Button colored component={Link} to="/weathermap-source">Check out the source here</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
@@ -48,7 +49,7 @@ class Projects extends Component {
       <Grid className="projects-row-2">
       <Cell col={6} tablet={8} phone={4}>
       <Card shadow={1} style={{width: '512px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}></CardTitle>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / contain'}}></CardTitle>
         <CardText>
           <h3>Quarantine-Assist</h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -65,14 +66,15 @@ class Projects extends Component {
 
       <Cell col={6} tablet={8} phone={4}>
       <Card shadow={1} style={{width: '512px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}></CardTitle>
+        <CardTitle style={{color: '#fff', height: '176px', background: 'url(/reisele-portfolio/img/decaf_img.png) center / contain'}}></CardTitle>
         <CardText>
           <h3>Decaf Compiler</h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Mauris sagittis pellentesque lacus eleifend lacinia...
         </CardText>
         <CardActions border>
-          <Button colored>Check out the source here</Button>
+          <Button colored component={Link} to="/decaf-source">Check out the source here</Button>
+          <Button colored component={Link} to="/decaf-spec">Decaf Spec</Button>
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name="share" />
@@ -81,7 +83,7 @@ class Projects extends Component {
       </Cell>
 
       </Grid>
-     
+
       </div>
 
       

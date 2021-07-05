@@ -12,6 +12,11 @@ const Main = () => (
     <Route path="/projects" exact component={Projects} />
     <Route path="/contact" exact component={Contact} />
 
+
+    <Route exact path="/decaf-source" render={() => (window.location = "https://github.com/reisele08/Decaf-Compiler")} />
+    <Route exact path="/decaf-spec" render={() => (window.location = "https://anoopsarkar.github.io/compilers-class/decafspec.html")} />
+    <Route exact path="/cradle-source" render={() => (window.location = "https://github.com/reisele08/CradlePlatform")} />
+    <Route exact path="/weathermap-source" render={() => (window.location = "https://github.com/reisele08/WeatherMap")} />
   </Switch>
 )
 
