@@ -6,6 +6,13 @@
   /*background: lightseagreen*/
   background: linear-gradient(to right, #536976, #292E49);
 }
+.footer-color {
+  /*background: -webkit-linear-gradient(to right, #0b8793, #360033);*/  /* Chrome 10-25, Safari 5.1-6 */
+
+  /*background: linear-gradient(to right, #353534, #353534);*/
+  /*background: lightseagreen*/
+  background: linear-gradient(to right, #536976, #292E49);
+}
 
 .drawer-color{
   background: linear-gradient(to right, #536976, #292E49);
@@ -135,6 +142,22 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Icons */
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.icons li {
+    display: inline-block;
+    padding: 0 0.65em 0 0;
+  }
+
+    ul.icons li:last-child {
+      padding-right: 0 !important;
+    }
 
 /* Icon */
 
@@ -348,3 +371,5 @@
         }
 
   }
+
+  
