@@ -5,19 +5,19 @@ import './landingpage.css';
 class Landing extends Component {
   render(){
     return (
-      <div style={{width: '80%', margin: 'auto'}}>
+      <div className = "home-page" style={{width: '80%', margin: 'auto'}}>
 
         <Grid className="landingpage-row-1">
         <Cell col={6} align= "middle">
         <p className = "landing-text">Hello, my name is Richard Eisele. I am
           a recent grad of SFU's Software Systems program
           within the school of Computing Science.
-          I have a passion for coding, video games, and music.
+          I have a passion for coding, video games, and guitar.
         </p>
         </Cell>
 
         <Cell col={6}>  
-        <img className="self_img" src={process.env.PUBLIC_URL + '/img/IMG_5893.jpg'}/>
+        <img className="self_img" src={process.env.PUBLIC_URL + '/img/img_self.png'}/>
         </Cell>
         </Grid>
 

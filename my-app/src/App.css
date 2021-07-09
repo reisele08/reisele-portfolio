@@ -1,17 +1,33 @@
 @import url(fontawesome-all.min.css);
+
+.layout{
+  background-color: #272727;
+}
+
+.home-page p{
+  color: white;
+}
+.home-page h1, h2, h3{
+  color: #DD614A;
+}
+.projects-h{
+  color:#353534;
+}
 .header-color {
   /*background: -webkit-linear-gradient(to right, #0b8793, #360033);*/  /* Chrome 10-25, Safari 5.1-6 */
 
   /*background: linear-gradient(to right, #353534, #353534);*/
   /*background: lightseagreen*/
-  background: linear-gradient(to right, #536976, #292E49);
+  /*background: linear-gradient(to right, #536976, #292E49);*/
+  background: #90A9B7;
 }
 .footer-color {
   /*background: -webkit-linear-gradient(to right, #0b8793, #360033);*/  /* Chrome 10-25, Safari 5.1-6 */
 
   /*background: linear-gradient(to right, #353534, #353534);*/
   /*background: lightseagreen*/
-  background: linear-gradient(to right, #536976, #292E49);
+  /*background: linear-gradient(to right, #536976, #292E49);*/
+  background: #AFC1D6;
 }
 
 .drawer-color{
@@ -20,127 +36,6 @@
   background: #353534;
 }
 
-.landing-grid {
-  /*background: #360033;*/  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #0b8793, #360033); */ /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to right, #0b8793, #360033); *//* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  align-items: center;
-  min-height : 100%;
-}
-
-.projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 100%;
-  width : 100%;
-  margin : auto;
-}
-
-.category-tabs {
-  margin : auto;
-  min-height: 100%;
-}
-
-.projects-grid h1 {
-  text-align: center;
-}
-
-.avatar-img {
-  height: 400px;
-  width : 300px;
-  position: relative;
-  overflow: hidden;
-  padding-top: 5em;
-  padding-bottom: 2em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.gfc-img {
-  height: 400px;
-  width : 300px;
-  position: relative;
-  overflow: hidden;
-  padding-top: 5em;
-  padding-bottom: 2em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.banner-text {
-  background-color: "#606060";
-  opacity: .8;
-  font-family: "Helvetica Neue";
-  position: relative;
-  width : 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1 {
-  padding-top: 20px;
-  font-size : 65px;
-  font-weight: 100;
-  color: white;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.banner-text h2 {
-  font-size: 18px;
-  font-weight: 300;
-  color: white;
-  text-align: center;
-  margin-top: 5px;
-}
-
-.banner-text h3,h4 {
-  padding-top: 20px;
-  font-size : 45px;
-  font-weight: 300;
-  color: black;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.category-tabs {
-  font-size: 18px;
-  font-weight: 300;
-  color: black;
-  text-align: center;
-  margin-top: 5px;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 20%;
-  margin: auto;
-}
-.social-links a {
-  color: white;
-}
-
-.social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
-}
-
-.title {
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
-}
 
 /* Icons */
 
@@ -162,46 +57,13 @@ ul.icons {
 /* Icon */
 
 .icon {
-  text-decoration: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: #CEF9F2;
   border-bottom: none;
   position: relative;
 }
 
-  .icon:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 400;
-  }
-
-  .icon > .label {
-    display: none;
-  }
-
-  .icon:before {
-    line-height: solid;
-  }
-
-  .icon.solid:before {
-    font-weight: 900;
-  }
-
-  .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands';
-  }
-
   .icon.major {
-    border: solid 1px;
+    border: solid 4px;
     display: inline-block;
     border-radius: 100%;
     padding: 0.65em;
@@ -216,160 +78,20 @@ ul.icons {
       height: 2.25em;
       line-height: 2.2em;
       border-radius: 100%;
-      border: solid 1px;
       text-align: center;
     }
-
-  .icon.alt {
-    display: inline-block;
-    border: solid 1px;
-    border-radius: 100%;
-  }
-
-    .icon.alt:before {
-      display: block;
-      font-size: 1.25em;
-      width: 2em;
-      height: 2em;
-      text-align: center;
-      line-height: 2em;
-    }
-
-  .icon.style1 {
-    color: #efa8b0;
-  }
-
-  .icon.style2 {
-    color: #c79cc8;
-  }
-
-  .icon.style3 {
-    color: #a89cc8;
-  }
-
-  .icon.style4 {
-    color: #9bb2e1;
-  }
-
-  .icon.style5 {
-    color: #8cc9f0;
-  }
-
-  @media screen and (max-width: 1680px) {
-
-    .icon.major:before {
-      font-size: 5.5rem;
-    }
-
-  }
-
-  @media screen and (max-width: 1280px) {
-
-    .icon.major:before {
-      font-size: 4.75rem;
-    }
-
-  }
-
-  @media screen and (max-width: 736px) {
-
-    .icon.major {
-      margin: 0 0 1.5em 0;
-      padding: 0.35em;
-    }
-
-      .icon.major:before {
-        font-size: 3.5rem;
-      }
-
-  }
 
 .icon.major {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: #AB92BF;
+  color: #AB92BF;
 }
 
   .icon.major:before {
-    border-color: rgba(255, 255, 255, 0.35);
+    color: #AB92BF;
   }
 
-.icon.alt {
-  border-color: rgba(255, 255, 255, 0.35);
-  color: #ffffff;
-}
-
-  .icon.alt:hover {
-    background-color: rgba(255, 255, 255, 0.075);
-  }
-
-  .icon.alt:active {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-
-/* Skills */
-
-.skills {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -moz-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
-  width: calc(100% + 2em);
-  margin: 0 0 3em -2em;
-  padding: 0;
-  list-style: none;
-}
-
-  .skills li {
-    width: calc(33.33333% - 2em);
-    margin-left: 2em;
-    margin-top: 3em;
-    padding: 0;
-  }
-
-    .skills li:nth-child(1), .skills li:nth-child(2), .skills li:nth-child(3) {
-      margin-top: 0;
-    }
-
-    .skills li > :last-child {
-      margin-bottom: 0;
-    }
-
-  @media screen and (max-width: 980px) {
-
-    .skills li {
-      width: calc(50% - 2em);
-    }
-
-      .skills li:nth-child(3) {
-        margin-top: 3em;
-      }
-
-  }
-
-  @media screen and (max-width: 736px) {
-
-    .skills {
-      width: 100%;
-      margin: 0 0 2em 0;
-    }
-
-      .skills li {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 2em;
-      }
-
-        .skills li:nth-child(2), .skills li:nth-child(3) {
-          margin-top: 2em;
-        }
-
+  .footer-icons{
+    color: #AB92BF;
   }
 
   
