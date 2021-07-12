@@ -47,7 +47,8 @@ class Landing extends Component {
     <span class="icon solid major fas fa-cloud-upload-alt"></span>
     <h3>Deploy</h3>
     <p>AWS</p>
-    <p>Kubernetes</p>				
+    <p>Kubernetes</p>		
+    <p>Docker</p>		
   </Cell>
 </Grid>
   </div>

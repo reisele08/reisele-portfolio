@@ -34,6 +34,7 @@ class App extends Component {
           <a href="mailto: Richard.J.Eisele@gmail.com"><i class="footer-icons fas fa-envelope fa-2x"></i></a>
           <a href="https://www.linkedin.com/in/richard-eisele-06203a97/"><i class="footer-icons fab fa-linkedin fa-2x"></i></a>
           <a href="https://github.com/reisele08"><i class="footer-icons fab fa-github fa-2x"></i></a>
+
         </FooterLinkList>
     </FooterSection>
     </Footer>
